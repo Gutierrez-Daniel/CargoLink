@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logística y Cargamentos Express | Envíos Seguros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="CargoLink.png" alt="Logo de CargoLink">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+                <li><a href="registro.html">Registrarse</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#cotizar">Cotizar Envío</a></li>
+                <li><a href="#rastreo">Rastrear Guía</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="acerca de.html">Acerca De Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Transportamos tus cargamentos a nivel nacional</h1>
+        <p>Envíos seguros, monitoreo en tiempo real y entregas a tiempo.</p>
+        <a href="#cotizar">Cotizar mi carga ahora</a>
+    </section>
+
+    <section id="rastreo">
+        <h2>Rastrea tu cargamento</h2>
+        <form action="#" method="get">
+            <input type="text" placeholder="Introduce el número de guía o contenedor" required>
+            <button type="submit">Buscar</button>
+        </form>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios de Carga</h2>
+        <ul>
+            <li>
+                <h3>Carga Terrestre</h3>
+                <p>Flota de camiones listos para mudanzas y distribución comercial.</p>
+            </li>
+            <li>
+                <h3>Logística de Última Milla</h3>
+                <p>Entregas locales urgentes directamente al cliente final.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="cotizar">
+        <h2>Solicita una Cotización Gratuita</h2>
+        <form action="#" method="post">
+            <label for="origen">Ciudad de Origen:</label>
+            <select id="origen" name="origen">
+                <option value="Bogotá">Bogotá</option>
+                <option value="Medellín">Medellín</option>
+                <option value="Cartagena">Cartagena</option>
+                <option value="Cali">Cali</option>
+                <option value="Barranqulla">Barranqulla</option>
+                <option value="Santa Marta">Santa Marta</option>
+                <option value="Bucaramanga">Bucaramanga</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Manizales">Manizales</option>
+                <option value="Armenia">Armenia</option>
+            </select>
+
+            <label for="destino">Ciudad de Destino:</label>
+            <select id="destino" name="destino">
+                <option value="Bogotá">Bogotá</option>
+                <option value="Medellín">Medellín</option>
+                <option value="Cartagena">Cartagena</option>
+                <option value="Cali">Cali</option>
+                <option value="Barranqulla">Barranqulla</option>
+                <option value="Santa Marta">Santa Marta</option>
+                <option value="Bucaramanga">Bucaramanga</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Manizales">Manizales</option>
+                <option value="Armenia">Armenia</option>
+            </select>
+
+            <label for="peso">Peso estimado (kg):</label>
+            <input type="number" id="peso" name="peso" required>
+
+            <label for="tipo">Tipo de mercancía:</label>
+            <select id="tipo" name="tipo">
+                <option value="general">Carga General</option>
+                <option value="fragil">Frágil / Delicada</option>
+                <option value="pesada">Maquinaria Pesada</option>
+            </select>
+
+            <button type="submit">Calcular Tarifa</button>
+        </form>
+    </section>
+
+    <footer id="contacto">
+        <p>Contacto: soporte@cargolink.com | Tel: +57 305 123 4567</p>
+    </footer>
+
+</body>
+
+</html>
